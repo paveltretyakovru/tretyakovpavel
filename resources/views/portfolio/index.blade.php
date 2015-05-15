@@ -195,10 +195,12 @@
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                             <img src="images/projects/truckus.jpg" alt="Сайт физитка truckus.ru"/>
+                            <a href="http://www.truckus.ru">
                             <figcaption>
                                 <h2>сайт <span>визитка</span></h2>
-                                <p><a href="http://www.truckus.ru">Электрик-диагност</a> американских грузовиков</p>
-                            </figcaption>			
+                                <p>Электрик-диагност американских грузовиков</p>
+                            </figcaption>
+                            </a>
                         </figure>
                     </div>
                     
@@ -209,14 +211,66 @@
                     <div class="grid wow zoomIn">
                         <figure class="effect-bubba">
                             <img src="images/projects/backbone.jpg" alt="Сайт физитка truckus.ru"/>
+                            <a href="http://backgammon.tretyakovpavel.ru">
                             <figcaption>
                                 <h2>Длинные <span>нарды</span></h2>
-                                <p><a href="http://www.truckus.ru">Онлайн-игра</a> альфа-версия</p>
-                            </figcaption>			
+                                <p>Онлайн-игра альфа-версия</p>
+                            </figcaption>
+                            </a>		
                         </figure>
                     </div>
                     
                 </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <img src="images/projects/taxi.jpg" alt="База данных такси" />
+                            <a href="http://taxi.sibitri.com">
+                            <figcaption>
+                                <h2>База <span>Такси</span></h2>
+                                <p>База данных такси вашего города</p>
+                            </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <img src="images/projects/shop.jpg" alt="Движок интерент магазина" />
+                            <a href="http://shop.tretyakovpavel.ru">
+                            <figcaption>
+                                <h2>Конструктор <span>Интернет-магазинов</span></h2>
+                                <p>Альфа версия движка</p>
+                            </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    
+                </div>
+
+
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    
+                    <div class="grid wow zoomIn">
+                        <figure class="effect-bubba">
+                            <img src="images/projects/simpletest.jpg" alt="Программа для тестирования на Delphi"/>
+                            <a href="https://github.com/ptretyakov/simpleTest">
+                            <figcaption>
+                                <h2>Simple <span>Test</span></h2>
+                                <p>Программа для тестирования, вместе с редактором тестов, написанная на Delphi</p>
+                            </figcaption>
+                            </a>
+                        </figure>
+                    </div>
+                    
+                </div>
+
                 
             </div>
 
@@ -550,6 +604,7 @@
 	<div class="scroll-up">
 		<a href="#home"><i class="fa fa-angle-up"></i></a>
 	</div>
+      
     
     <!-- Scroll to top end-->
 
