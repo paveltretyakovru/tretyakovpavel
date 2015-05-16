@@ -146,8 +146,7 @@
 				response.fadeIn(500);
 				response.html('<i class="fa fa-warning"></i> Please fix the errors and try again.');
 			}else{				
-				$('#contact-form .ajax-hidden').fadeOut(500);
-				response.html("Message Sent. I will contact you asap. Thanks.").fadeIn(500);
+				$('#contact-form .ajax-hidden').fadeOut(500);				
 				$.post("/messages/sendMessage" , 
 					{
 						name 	: c_name ,
@@ -159,7 +158,11 @@
 				);
 
 				function successSendMessage(data){
-					console.info('Success send message!' , data);
+					if('success' in data){
+						response.html("Сообщение отправлено. Я свяжусь с Вами как можно сокрее. Спасибо.").fadeIn(500);
+					}else{
+						response.html("Простите, но произошла ошибка во время отправки сообщения. Пожалуйста, свяжитесь со мной в одной из социальных сетей, указынных ниже. Спасибо!").fadeIn(500);
+					}
 				}
 			}
             
