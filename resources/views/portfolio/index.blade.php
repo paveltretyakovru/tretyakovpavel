@@ -540,6 +540,8 @@
 				<div class="col-sm-6 col-sm-offset-3">
 
 					<form id="contact-form" role="form">
+					<input type="hidden" name="_token" value="{{ csrf_token() }}" id="guest-message-token">
+
 						<div class="ajax-hidden">
 							<div class="form-group wow fadeInUp">
 								<label class="sr-only" for="c_name">Имя</label>

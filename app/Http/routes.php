@@ -20,3 +20,5 @@ $router->get('/', function()
 {
 	return view('portfolio.index');
 });
+
+$router->post('/messages/sendMessage' , 'MessagesController@sendMessage');
