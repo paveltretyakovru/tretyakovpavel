@@ -332,6 +332,13 @@
 					</div>
 
 					<div class="col-sm-6 col-md-3 text-center">
+						<span data-percent="90" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
+                            <span class="percent">90</span>
+                        </span>
+						<h3 class="text-center">Yii</h3>(на стадии изучения)
+					</div>
+
+					<div class="col-sm-6 col-md-3 text-center">
 						<span data-percent="80" class="chart easyPieChart" style="width: 140px; height: 140px; line-height: 140px;">
                             <span class="percent">80</span>
                         </span>
